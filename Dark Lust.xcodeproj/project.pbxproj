@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		93053B400C54730F007B2ED0 /* Icon2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 93053B3F0C54730F007B2ED0 /* Icon2.icns */; };
+		930B44650C42FED5006C06CB /* NewProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 930B44640C42FED5006C06CB /* NewProfile.m */; };
+		931D285E0CC51D79001D4403 /* Story Window.png in Resources */ = {isa = PBXBuildFile; fileRef = 931D285D0CC51D79001D4403 /* Story Window.png */; };
+		931D287D0CC52073001D4403 /* 1 The Night It Began.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 931D287C0CC52073001D4403 /* 1 The Night It Began.rtf */; };
+		93360DB10C42F82C00A141D1 /* Start Window.png in Resources */ = {isa = PBXBuildFile; fileRef = 93360DB00C42F82C00A141D1 /* Start Window.png */; };
+		938A355D0CC945C800F3686D /* General.psd in Resources */ = {isa = PBXBuildFile; fileRef = 938A355C0CC945C800F3686D /* General.psd */; };
+		938A35600CC9484A00F3686D /* Town.psd in Resources */ = {isa = PBXBuildFile; fileRef = 938A355F0CC9484A00F3686D /* Town.psd */; };
+		938B2B1B0CC92693000E482A /* Main Window.png in Resources */ = {isa = PBXBuildFile; fileRef = 938B2B1A0CC92693000E482A /* Main Window.png */; };
+		939A957A0C42F9AB001AE626 /* New Profile.tif in Resources */ = {isa = PBXBuildFile; fileRef = 939A95790C42F9AB001AE626 /* New Profile.tif */; };
+		93B40B730CCA84830052028C /* Graveyard.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B40B720CCA84820052028C /* Graveyard.m */; };
+		93C6AB5E0C546497001DB87F /* ProfileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C6AB5D0C546497001DB87F /* ProfileList.m */; };
+		93E17CDD0C43278400E6547E /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E17CDC0C43278400E6547E /* MainWindow.m */; };
+		93E17D7D0C432CD500E6547E /* UKPrefsPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E17D7B0C432CD500E6547E /* UKPrefsPanel.m */; };
+		93FBFCF80C55B1EC004867FC /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FBFCF70C55B1EC004867FC /* DataController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Maffia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maffia_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Dark Lust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Lust.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93053B3F0C54730F007B2ED0 /* Icon2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon2.icns; path = Images/Icon2.icns; sourceTree = "<group>"; };
+		930B44630C42FED5006C06CB /* NewProfile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NewProfile.h; sourceTree = "<group>"; };
+		930B44640C42FED5006C06CB /* NewProfile.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NewProfile.m; sourceTree = "<group>"; };
+		931D285D0CC51D79001D4403 /* Story Window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Story Window.png"; path = "Images/Story Window.png"; sourceTree = "<group>"; };
+		931D287C0CC52073001D4403 /* 1 The Night It Began.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "1 The Night It Began.rtf"; path = "Stories/English/1 The Night It Began.rtf"; sourceTree = "<group>"; };
+		93360DB00C42F82C00A141D1 /* Start Window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Start Window.png"; path = "Images/Start Window.png"; sourceTree = "<group>"; };
+		938A355C0CC945C800F3686D /* General.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = General.psd; path = Images/General.psd; sourceTree = "<group>"; };
+		938A355F0CC9484A00F3686D /* Town.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = Town.psd; path = Images/Town.psd; sourceTree = "<group>"; };
+		938B2B1A0CC92693000E482A /* Main Window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Main Window.png"; path = "Images/Main Window.png"; sourceTree = "<group>"; };
+		939A95790C42F9AB001AE626 /* New Profile.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "New Profile.tif"; path = "Images/New Profile.tif"; sourceTree = "<group>"; };
+		93B40B710CCA84820052028C /* Graveyard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Graveyard.h; sourceTree = "<group>"; };
+		93B40B720CCA84820052028C /* Graveyard.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Graveyard.m; sourceTree = "<group>"; };
+		93C6AB5C0C546497001DB87F /* ProfileList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ProfileList.h; sourceTree = "<group>"; };
+		93C6AB5D0C546497001DB87F /* ProfileList.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ProfileList.m; sourceTree = "<group>"; };
+		93E17CDB0C43278400E6547E /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		93E17CDC0C43278400E6547E /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		93E17D7B0C432CD500E6547E /* UKPrefsPanel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UKPrefsPanel.m; sourceTree = "<group>"; };
+		93E17D7C0C432CD500E6547E /* UKPrefsPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UKPrefsPanel.h; sourceTree = "<group>"; };
+		93FBFCF60C55B1EC004867FC /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		93FBFCF70C55B1EC004867FC /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				930B44630C42FED5006C06CB /* NewProfile.h */,
+				930B44640C42FED5006C06CB /* NewProfile.m */,
+				93E17CDB0C43278400E6547E /* MainWindow.h */,
+				93E17CDC0C43278400E6547E /* MainWindow.m */,
+				93E17D7B0C432CD500E6547E /* UKPrefsPanel.m */,
+				93E17D7C0C432CD500E6547E /* UKPrefsPanel.h */,
+				93C6AB5C0C546497001DB87F /* ProfileList.h */,
+				93C6AB5D0C546497001DB87F /* ProfileList.m */,
+				93FBFCF60C55B1EC004867FC /* DataController.h */,
+				93FBFCF70C55B1EC004867FC /* DataController.m */,
+				93B40B710CCA84820052028C /* Graveyard.h */,
+				93B40B720CCA84820052028C /* Graveyard.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Dark Lust.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Maffia */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				931D286B0CC51EF2001D4403 /* Stories */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Maffia;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Maffia_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93053B3F0C54730F007B2ED0 /* Icon2.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				93360DB00C42F82C00A141D1 /* Start Window.png */,
+				939A95790C42F9AB001AE626 /* New Profile.tif */,
+				931D285D0CC51D79001D4403 /* Story Window.png */,
+				938B2B1A0CC92693000E482A /* Main Window.png */,
+				938A355C0CC945C800F3686D /* General.psd */,
+				938A355F0CC9484A00F3686D /* Town.psd */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		931D286B0CC51EF2001D4403 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				931D287C0CC52073001D4403 /* 1 The Night It Began.rtf */,
+			);
+			name = Stories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Dark Lust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Dark Lust" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dark Lust";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Maffia;
+			productReference = 8D1107320486CEB800E47090 /* Dark Lust.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Dark Lust" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Maffia */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Dark Lust */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				93360DB10C42F82C00A141D1 /* Start Window.png in Resources */,
+				939A957A0C42F9AB001AE626 /* New Profile.tif in Resources */,
+				93053B400C54730F007B2ED0 /* Icon2.icns in Resources */,
+				931D285E0CC51D79001D4403 /* Story Window.png in Resources */,
+				931D287D0CC52073001D4403 /* 1 The Night It Began.rtf in Resources */,
+				938B2B1B0CC92693000E482A /* Main Window.png in Resources */,
+				938A355D0CC945C800F3686D /* General.psd in Resources */,
+				938A35600CC9484A00F3686D /* Town.psd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				930B44650C42FED5006C06CB /* NewProfile.m in Sources */,
+				93E17CDD0C43278400E6547E /* MainWindow.m in Sources */,
+				93E17D7D0C432CD500E6547E /* UKPrefsPanel.m in Sources */,
+				93C6AB5E0C546497001DB87F /* ProfileList.m in Sources */,
+				93FBFCF80C55B1EC004867FC /* DataController.m in Sources */,
+				93B40B730CCA84830052028C /* Graveyard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Dark Lust";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Dark Lust";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Dark Lust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Dark Lust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
